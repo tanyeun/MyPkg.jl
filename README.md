@@ -5,6 +5,7 @@
 [![Coverage](https://codecov.io/gh/tanyeun/MyPkg.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/tanyeun/MyPkg.jl)
 [![Coverage](https://coveralls.io/repos/github/tanyeun/MyPkg.jl/badge.svg?branch=main)](https://coveralls.io/github/tanyeun/MyPkg.jl?branch=main)
 
+```
 pkg> add PkgTemplates
 > using PkgTemplates
 > t = Template(;
@@ -18,7 +19,11 @@ pkg> add PkgTemplates
            AppVeyor(),
          ],
        )
-# In Julia REPL, press ESC+Enter to edit next line
-# press Enter will execute
+```
 
+In Julia REPL, press ESC+Enter to edit next line
+
+press Enter will execute
+```
 > generate("MyPkg", t)
+```
